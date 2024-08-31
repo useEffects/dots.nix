@@ -21,7 +21,7 @@ with pkgs; [
   openjdk17
   neofetch
   zsh
-  gnome.gnome-tweaks
+  gnome-tweaks
   gnomeExtensions.user-themes
   gnomeExtensions.tray-icons-reloaded
   gnomeExtensions.quick-settings-tweaker

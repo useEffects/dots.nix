@@ -17,7 +17,8 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.april = import ./home-manager/home.nix;
+            home-manager.users.aprilia = import ./home-manager/home.nix;
+            home-manager.backupFileExtension = "backup";
           }
         ];
       };
