@@ -109,8 +109,8 @@
       color-scheme = "prefer-dark";
     };
     "org/gnome/desktop/background" = {
-      "picture-uri" = "file:///etc/nixos/home-manager/wallpaper/wp11912480-catppuccin-wallpapers.png";
-      "picture-uri-dark" = "file:///etc/nixos/home-manager/wallpaper/wp11912480-catppuccin-wallpapers.png";
+      "picture-uri" = "file:///etc/nixos/home-manager/wallpaper/wallpaper.jpg";
+      "picture-uri-dark" = "file:///etc/nixos/home-manager/wallpaper/wallpaper.jpg";
     };
     "org/gnome/desktop/wm/preferences" = {
       button-layout = ":minimize,maximize,close";
