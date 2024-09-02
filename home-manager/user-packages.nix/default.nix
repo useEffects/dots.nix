@@ -27,6 +27,10 @@ with pkgs; [
   gnomeExtensions.quick-settings-tweaker
   catppuccin-gtk
   slack
+  gh
+
+  nodePackages.yarn
+  nodePackages.pnpm
 
   # Fonts
   cascadia-code

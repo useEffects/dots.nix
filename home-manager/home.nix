@@ -22,6 +22,9 @@
     enable = true;
     userName = "useEffects";
     userEmail = "joel.sr1024@gmail.com";
+    extraConfig = {
+      credential.helper = "oauth";
+    };
   };
   gtk = {
     enable = true;

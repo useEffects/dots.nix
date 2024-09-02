@@ -15,4 +15,7 @@
   #   }
   # ];
   "editor.wordWrap" = "on";
+
+  "vim" = import ./vim.nix;
+
 }
