@@ -86,7 +86,6 @@
       '';
     };
   };
-  home.sessionVariables.GTK_THEME = "Catppuccin-Mocha-Standard-Mauve-Dark";
   nixpkgs = {
     config = {
       allowUnfree = true;
@@ -103,10 +102,11 @@
       ];
     };
     "org/gnome/shell/extensions/user-theme" = {
-      name = "Catppuccin-Mocha-Standard-Mauve-Dark";
+      name = "catppuccin-mocha-mauve-standard+rimless,normal";
     };
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
+      gtk-theme = lib.mkForce "catppuccin-mocha-mauve-standard+rimless,normal";
     };
     "org/gnome/desktop/background" = {
       "picture-uri" = "file:///etc/nixos/home-manager/wallpaper/wallpaper.jpg";
