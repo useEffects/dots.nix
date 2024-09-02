@@ -26,4 +26,5 @@ with pkgs; [
   gnomeExtensions.tray-icons-reloaded
   gnomeExtensions.quick-settings-tweaker
   catppuccin-gtk
+  slack
 ]
