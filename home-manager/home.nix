@@ -60,10 +60,10 @@
   gtk = {
     enable = true;
     theme = {
-      name = "Catppuccin-Mocha-Standard-Mauve-Dark";
+      name = "Catppuccin-Mocha-Standard-Pink-Dark";
       package = pkgs.catppuccin-gtk.override {
         variant = "mocha";
-        accents = [ "mauve" ];
+        accents = [ "pink" ];
         size = "standard";
         tweaks = [ "rimless" "normal" ];
       };
@@ -72,7 +72,7 @@
       name = "Papirus-Dark";
       package = pkgs.catppuccin-papirus-folders.override {
         flavor = "mocha";
-        accent = "mauve";
+        accent = "pink";
       };
     };
     gtk3.extraConfig = {
@@ -102,11 +102,11 @@
       ];
     };
     "org/gnome/shell/extensions/user-theme" = {
-      name = "catppuccin-mocha-mauve-standard+rimless,normal";
+      name = "catppuccin-mocha-pink-standard+rimless,normal";
     };
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      gtk-theme = lib.mkForce "catppuccin-mocha-mauve-standard+rimless,normal";
+      gtk-theme = lib.mkForce "catppuccin-mocha-pink-standard+rimless,normal";
     };
     "org/gnome/desktop/background" = {
       "picture-uri" = "file:///etc/nixos/home-manager/wallpaper/wallpaper.jpg";
