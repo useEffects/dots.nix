@@ -12,6 +12,7 @@ with pkgs.vscode-extensions; [
   vscjava.vscode-java-test
   vscjava.vscode-maven
   vscjava.vscode-java-dependency
+  vscodevim.vim
   twxs.cmake
 ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
   {

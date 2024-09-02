@@ -5,6 +5,8 @@
   "files.autoSave" = "afterDelay";
   "workbench.colorTheme" = "Catppuccin Mocha";
   "java.jdt.ls.java.home" = "${pkgs.openjdk17}/lib/openjdk";
+  "editor.fontFamily" = "'Cascadia Code', Consolas, 'Courier New', monospace";
+  "editor.fontLigatures" = true;
   # "java.configuration.runtime" = [
   #   {
   #     "name" = "JavaSE-17";
