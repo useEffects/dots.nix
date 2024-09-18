@@ -8,10 +8,18 @@
 
   home.packages = import ./user-packages.nix { inherit pkgs; };
 
-  home.file = { };
+  # home.file = {
+  #   "${config.xdg.configHome}/Code/User/settings.json" = {
+  #     source = config.lib.file.mkOutOfStoreSymlink "${flakePath}/home-manager/";
+  #   };
+  #   "${config.xdg.configHome}/Code/User/keybindings.json" = {
+  #     source = config.lib.file.mkOutOfStoreSymlink "${flakePath}/users/amy/apps/dedicated/vscode-config/keybindings.json";
+  #   };
+  # };
 
   home.sessionVariables = {
     # EDITOR = "emacs";
+    ANDROID_HOME = "/home/aprilia/Android/Sdk";
   };
   
   fonts.fontconfig.enable = true;

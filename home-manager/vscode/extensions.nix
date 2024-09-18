@@ -1,9 +1,9 @@
 { pkgs }:
 with pkgs.vscode-extensions; [
-  catppuccin.catppuccin-vsc
   jnoortheen.nix-ide
   ms-vscode.cpptools
   ms-vscode.cmake-tools
+  ms-vscode-remote.remote-ssh
   ms-python.python
   redhat.java
   redhat.vscode-yaml
@@ -13,7 +13,10 @@ with pkgs.vscode-extensions; [
   vscjava.vscode-maven
   vscjava.vscode-java-dependency
   vscodevim.vim
+  ritwickdey.liveserver
+  bradlc.vscode-tailwindcss
   twxs.cmake
+  james-yu.latex-workshop
 ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
   {
     name = "vscode-java-pack";

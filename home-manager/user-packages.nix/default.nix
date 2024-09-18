@@ -10,6 +10,7 @@ with pkgs; [
   htop
   nixpkgs-fmt
   nodejs
+  bun
   go
   docker
   docker-compose
@@ -28,9 +29,11 @@ with pkgs; [
   catppuccin-gtk
   slack
   gh
-
-  nodePackages.yarn
-  nodePackages.pnpm
+  android-studio
+  poetry
+  fnm
+  texliveFull
+  insomnia
 
   # Fonts
   cascadia-code
